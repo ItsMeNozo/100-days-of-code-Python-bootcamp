@@ -53,3 +53,4 @@ def draw_dot_painting(w, h):
 draw_dot_painting(10, 10)
 screen = t.Screen()
 screen.exitonclick()
+
