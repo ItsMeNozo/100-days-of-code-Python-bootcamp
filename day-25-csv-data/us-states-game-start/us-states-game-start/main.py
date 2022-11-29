@@ -8,7 +8,7 @@ image = "blank_states_img.gif"
 screen.addshape(image)
 
 turtle.shape(image)
-guessed_states = [] # to print all missing states later
+guessed_states = []  # to print all missing states later
 data = pandas.read_csv("50_states.csv")
 
 while len(guessed_states) < 50:
@@ -16,10 +16,7 @@ while len(guessed_states) < 50:
     state_line = data[data.state.str.lower() == answer_state.lower()]
 
     if answer_state.lower() == "exit":
-        states_not_guessed = []
-        for state in data.state:
-            if state not in guessed_states:
-                states_not_guessed.append(state)
+        states_not_guessed = [state for state in data.state if state not in guessed_states]
         not_guessed_state_dataFrame = pandas.DataFrame({"states": states_not_guessed})
         not_guessed_state_dataFrame.to_csv("states_to_learn.csv")
         break

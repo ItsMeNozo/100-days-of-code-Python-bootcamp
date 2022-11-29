@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/day-25-csv-data.iml" filepath="$PROJECT_DIR$/.idea/day-25-csv-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../school/University/2nd-year/1st semester/Mạng máy tính/đồ-án-socket/MMT_Socket/socket_2022/.idea/socket_2022.iml" filepath="$PROJECT_DIR$/../../../school/University/2nd-year/1st semester/Mạng máy tính/đồ-án-socket/MMT_Socket/socket_2022/.idea/socket_2022.iml" />
       <module fileurl="file://$PROJECT_DIR$/us-states-game-start/us-states-game-start/.idea/us-states-game-start.iml" filepath="$PROJECT_DIR$/us-states-game-start/us-states-game-start/.idea/us-states-game-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../school/University/2nd-year/1st semester/Mạng máy tính/my-programming/web-server/.idea/web-server.iml" filepath="$PROJECT_DIR$/../../../school/University/2nd-year/1st semester/Mạng máy tính/my-programming/web-server/.idea/web-server.iml" />
     </modules>
   </component>
 </project>
